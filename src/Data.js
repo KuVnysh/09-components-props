@@ -1,13 +1,9 @@
-import './App.css';
-import Product from './Product'
-import Footer from './Footer';
 import Author_photo from "./Img.png"
 import Ukraine from "./Ukraine.jpeg"
 import Palestin from "./Palestine.jpeg"
 import Black_man from "./black_man.jpeg"
 
-function App() {
-  const articlesFromAPI = [
+export const articlesFromAPI = [
     {
         id: 0,
         author_img: Author_photo,
@@ -20,7 +16,7 @@ function App() {
     },
     {
         id: 1,
-        author_img: Author_photo,
+        author_img: "./img.png",
         authors_name: "Raja Abdulrahim",
         topic: "Palestinians",
         date: "28 November",
@@ -30,7 +26,7 @@ function App() {
     },
     {
         id: 2,
-        author_img: Author_photo,
+        author_img: "./img.png",
         authors_name: "Rick Rojas",
         topic: "Black People",
         date: "28 March",
@@ -39,14 +35,3 @@ function App() {
         img: Black_man
     },
 ]
-  return (
-    <div className="App">
-      <h5>Medium Alike</h5> 
-      <h1> Hello World</h1>
-      {articlesFromAPI.map(item=><Product key={item.id} author_img={item.author_img} authors_name={item.authors_name} topic={item.topic} date={item.date} title={item.title} summary={item.summary} img={item.img}/>)}
-      <Footer />
-    </div>
-  );
-}
-
-export default App;

@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
+.App{
+  margin-left: 160px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h5{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 24px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first_line {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+#author{
+  width: 24px;
+  height: 24px;
+}
+h1{
+  font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 250%;
+    margin-top: 88px;
+    margin-bottom: 64px;
+}
+.Body{
+  display: flex;
+  flex-direction: row;
+  gap: 162px;
+}
+#img{
+  width: 265px;
+  height: 265px;
+  margin-right: 160px;
+  margin-bottom: 90px;
+}
+.left_side{
+  width: 693px;
+}
+.footer{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: end;
+  margin-top: 788px;
+  margin-right: 172px;
 }
